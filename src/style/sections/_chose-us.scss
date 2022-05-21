@@ -18,10 +18,15 @@
 
         @include media('>=tablet') {
             // max-width: 560px;
-            width: 50%;
+            width: 40%;
         }
 
         @include media('>=1024px') {
+            max-width: 520px;
+            width: 100%;
+        }
+
+        @include media('>=1040px') {
             max-width: 560px;
             width: 100%;
         }
@@ -166,17 +171,34 @@
 
     .river {
         margin-bottom: 10px;
+        max-width: 350px;
+        width: 100%;
 
         @include media('>=tablet') {
             padding-right: 90px;
-            margin-bottom: 10px;
+            max-width: 350px;
+            width: 100%;
+        }
+
+        @include media('>=1024px') {
+            max-width: 440px;
+            width: 100%;
         }
     }
 
     .mountain {
+        max-width: 350px;
+        width: 100%;
 
         @include media('>=tablet') {
             padding-left: 90px;
+            max-width: 350px;
+            width: 100%;
+        }
+
+        @include media('>=1024px') {
+            max-width: 440px;
+            width: 100%;
         }
     }
 }

@@ -259,7 +259,7 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.hero-section .lox {
+.hero-section .form-holder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -272,7 +272,7 @@ ul {
   margin-bottom: 107px;
 }
 @media (min-width: 768px) {
-  .hero-section .lox {
+  .hero-section .form-holder {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -522,10 +522,17 @@ ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .navigation .container {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-top: 0;
   }
 }
 .navigation .logo-name {
@@ -693,10 +700,16 @@ ul {
 }
 @media (min-width: 768px) {
   .chose-us .left-side {
-    width: 50%;
+    width: 40%;
   }
 }
 @media (min-width: 1024px) {
+  .chose-us .left-side {
+    max-width: 520px;
+    width: 100%;
+  }
+}
+@media (min-width: 1040px) {
   .chose-us .left-side {
     max-width: 560px;
     width: 100%;
@@ -814,16 +827,37 @@ ul {
 }
 .chose-us .river {
   margin-bottom: 10px;
+  max-width: 350px;
+  width: 100%;
 }
 @media (min-width: 768px) {
   .chose-us .river {
     padding-right: 90px;
-    margin-bottom: 10px;
+    max-width: 350px;
+    width: 100%;
   }
+}
+@media (min-width: 1024px) {
+  .chose-us .river {
+    max-width: 440px;
+    width: 100%;
+  }
+}
+.chose-us .mountain {
+  max-width: 350px;
+  width: 100%;
 }
 @media (min-width: 768px) {
   .chose-us .mountain {
     padding-left: 90px;
+    max-width: 350px;
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .chose-us .mountain {
+    max-width: 440px;
+    width: 100%;
   }
 }
 
