@@ -1,0 +1,103 @@
+.footer-section {
+    padding-top: 122px;
+    padding-bottom: 46px;
+    background-color: #232323;
+
+    @include media('>=tablet') {
+        padding-top: 122px;
+        padding-bottom: 46px;
+        background-color: #232323;
+    }
+
+    .logo {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 3.36px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+
+        @include media('>=tablet') {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 26px;
+            letter-spacing: 3.36px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+        a {
+            color: #FFFFFF;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+    }
+
+    .bottom-title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 1.6px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+
+        @include media('>=tablet') {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 1.6px;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        @include media('>=tablet') {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .nav-list {
+        
+        max-width: 166px;
+        width: 100%;
+
+        @include media('>=tablet') {
+            display: flex;
+        justify-content: space-between;
+            max-width: 166px;
+            width: 100%;
+        }
+    }
+
+    .list-item:hover path {
+        fill: #5474FD;
+    }
+
+    .list-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 15px;
+
+        @include media('>=tablet') {
+            margin-bottom: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    
+}

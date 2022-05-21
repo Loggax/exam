@@ -1,0 +1,337 @@
+.hero-section {
+    padding-top: 83px;
+
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #5474FD;
+        margin: 0 11px;
+        
+        @include media('>=tablet') {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #5474FD;
+            margin: 0 11px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #5474FD;
+            margin: 0 11px;
+
+            @include media('>=tablet') {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #5474FD;
+                margin: 0 11px;
+            }
+        }
+    }
+
+    .logo-name {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 28px 0;
+
+        @include media('>=tablet') {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 26px;
+            letter-spacing: 2.4px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            padding: 28px 0;
+        }
+    }
+
+    .nav-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 525px;
+        width: 100%;
+
+        @include media('>=tablet') {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 525px;
+            width: 100%;
+        }
+    }
+
+    .nav-item {
+
+        a {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+
+            @include media('>=tablet') {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 26px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    p {
+        display: inline-block;
+    }
+
+    h1 {
+        padding-top: 277px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 26px;
+        letter-spacing: 4.8px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 11px;
+        font-family: 'Josefin Sans', sans-serif;
+
+        @include media('>=tablet') {
+            padding-top: 277px;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 26px;
+            letter-spacing: 4.8px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            text-align: center;
+            margin-bottom: 11px;
+        }
+    }
+
+    .title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 6.82px;
+        color: #FFFFFF;
+        margin-bottom: 48px;
+
+        @include media('>=tablet') {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 6.82px;
+            color: #FFFFFF;
+            margin-bottom: 48px;
+        }
+    }
+
+    .search-holder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .lox {
+        display: flex;
+        align-items: center;
+        max-width: 656px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 107px;
+
+        @include media('>=tablet') {
+            display: flex;
+            align-items: center;
+            max-width: 656px;
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 107px;
+        }
+    }
+
+    .forma {
+        max-width: 503px;
+        width: 100%;
+
+        @include media('>=tablet') {
+            max-width: 503px;
+            width: 100%;
+        }
+    }
+
+    input {
+        max-width: 503px;
+        width: 100%;
+        height: 36px;
+
+        @include media('>=tablet') {
+            max-width: 503px;
+            width: 100%;
+            height: 63px;
+        }
+    }
+
+    .btn-search {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100px;
+        width: 100%;
+        padding: 3px 0;
+        background-color: #5474FD;
+        border: 2px solid #fff;
+
+        @include media('>=tablet') {
+            // display: inline-block;
+            max-width: 153px;
+            width: 100%;
+            padding: 17px 0;
+            background-color: #5474FD;
+
+        }
+
+        p {
+            padding: 0 3px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: 'Aleo', serif;
+
+
+            @include media('>=tablet') {
+                padding: 0 14px;
+                text-align: center;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 26px;
+                letter-spacing: 1.4px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+
+        .lupa-holder {
+            max-width: 22px;
+            width: 100%;
+            height: 24px;
+
+            @include media('>=tablet') {
+                max-width: 22px;
+                width: 100%;
+                height: 24px;
+            }
+        }
+
+        svg {
+            max-width: 22px;
+            width: 100%;
+            height: 24px;
+
+            @include media('>=tablet') {
+                max-width: 22px;
+                width: 100%;
+                height: 24px;
+            }
+        }
+    }
+
+    ::-webkit-input-placeholder {
+        text-align:center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        letter-spacing: 1.5px;
+        color: #999999;
+        font-family: 'Josefin Sans', sans-serif;
+
+        @include media('>=tablet') {
+            font-size: 14px;
+            letter-spacing: 2.8px;
+        }
+    }
+        
+    :-moz-placeholder { /* Firefox 18- */
+        text-align:center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        letter-spacing: 1.5px;
+        color: #999999;
+        font-family: 'Josefin Sans', sans-serif;
+
+        @include media('>=tablet') {
+            font-size: 14px;
+            letter-spacing: 2.8px;
+        }
+    }
+        
+    ::-moz-placeholder {  /* Firefox 19+ */
+        text-align:center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        letter-spacing: 1.5px;
+        color: #999999;
+        font-family: 'Josefin Sans', sans-serif;
+
+        @include media('>=tablet') {
+            font-size: 14px;
+            letter-spacing: 2.8px;
+        }  
+    }
+        
+    :-ms-input-placeholder {  
+        text-align:center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        letter-spacing: 1.5px;
+        color: #999999;
+        font-family: 'Josefin Sans', sans-serif;
+
+        @include media('>=tablet') {
+            font-size: 14px;
+            letter-spacing: 2.8px;
+        } 
+    }    
+
+    .scroll {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 142px;
+        transition: 2s;
+
+        a {
+            text-align: center;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            letter-spacing: 2.8px;
+            color: #FFFFFF;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+    } 
+}

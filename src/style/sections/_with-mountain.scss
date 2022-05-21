@@ -1,0 +1,132 @@
+.with-mountain {
+    background-position: center;
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 226px;
+        padding-bottom: 89px;
+        justify-content: flex-end;
+
+        @include media('>=tablet') {
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 226px;
+            padding-bottom: 99px;
+            justify-content: flex-end;
+        }
+    }
+
+    .card {
+        max-width: 543px;
+        width: 100%;
+        background-color: rgba(35, 35, 35, 0.9);
+        padding: 45px 3px 50px 32px;
+
+        @include media('>=tablet') {
+            max-width: 543px;
+            width: 100%;
+            background-color: rgba(35, 35, 35, 0.9);
+            padding: 45px 3px 50px 32px;
+        }
+    }
+
+    .false-title {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 1.5px;
+        color: #E8E8E8;
+        margin-bottom: 23px;
+        font-family: 'Josefin Sans', sans-serif;
+
+        @include media('>=tablet') {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            letter-spacing: 1.5px;
+            color: #E8E8E8;
+            margin-bottom: 23px;
+        }
+    }
+
+    h2 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 13px;
+        font-family: 'Josefin Sans', sans-serif;
+
+        @include media('>=tablet') {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 13px;
+        }
+    }
+
+    .card-desc {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #E8E8E8;
+        margin-bottom: 46px;
+        font-family: 'Josefin Sans', sans-serif;
+
+        @include media('>=tablet') {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #E8E8E8;
+            margin-bottom: 46px;
+        }
+    }
+
+    .card-btn {
+        position: relative;
+        max-width: 228px;
+        width: 100%;
+        padding: 17px 36px 17px 64px;
+        overflow: hidden;
+        background-color: #5474FD;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #496BFE;
+            transform: rotate(45deg);
+        }
+
+        &::before:hover {
+            background-color: #5474FD;
+        }
+
+        &:hover {
+            background-color: #496BFE;
+        }
+
+        a {
+            position: relative;
+            
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            z-index: 2;
+            overflow: hidden;
+            font-family: 'Aleo', serif;
+
+        }
+    }
+
+}

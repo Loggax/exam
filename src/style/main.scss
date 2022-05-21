@@ -1,0 +1,17 @@
+@import "mixins";
+@import "variables";
+@import "general";
+@import "icons";
+
+//blocks//
+@import "blocks/head";
+
+//sections//
+@import "sections/hero-section";
+@import "sections/navigation";
+@import "sections/chose-us";
+@import "sections/how-it-works";
+@import "sections/with-house";
+@import "sections/with-mountain";
+@import "sections/testimonial";
+@import "sections/footer";
